@@ -90,6 +90,10 @@ The more useful reflection is the actor speed:
 
 ![Image](ActorSpeedConfig.png)
 
+And finally, A short video clip to demonstrate it working:
+
+![Gif](Resit_3_demo.gif)
+
 ---
 
 I believe that covers all criteria for this task; Enhanced input system whith simple movement, show how it can accomodate different devices, and show reflection of variables in the editor.
@@ -148,7 +152,7 @@ AMyMovingActor::AMyMovingActor()
 
 	//Create collision and size
 	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionBox"));
-	RootComponent = CollisionBox;
+	SetRootComponent(CollisionBox);
 	CollisionBox->SetBoxExtent(FVector(50.f, 50.f, 50.f));
 	CollisionBox->SetCollisionProfileName(TEXT("Actor"));
 

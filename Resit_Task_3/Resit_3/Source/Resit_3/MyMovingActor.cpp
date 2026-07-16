@@ -48,7 +48,7 @@ AMyMovingActor::AMyMovingActor()
 
 	//Create collision and size
 	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionBox"));
-	RootComponent = CollisionBox;
+	SetRootComponent(CollisionBox);
 	CollisionBox->SetBoxExtent(FVector(50.f, 50.f, 50.f));
 	CollisionBox->SetCollisionProfileName(TEXT("Actor"));
 
