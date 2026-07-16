@@ -1,10 +1,10 @@
 The actor is spawned at runtime using the level blueprint:
 
-![image](spawn.png)
+![image](Spawn.png)
 
 Actor output:
 
-![image](output.png)
+![image](Output.png)
 
 This shows the actor constructing then beginning play. After play has begun it then ticks and destroys itself, showing the destroyed message.
 
