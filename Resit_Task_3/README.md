@@ -92,7 +92,7 @@ The more useful reflection is the actor speed:
 
 And finally, A short video clip to demonstrate it working:
 
-![Gif](Resit_3_demo.gif)
+![Gif](Resit_3_Demo.gif)
 
 ---
 
